@@ -1,0 +1,82 @@
+body{
+    color: aliceblue;
+
+}
+
+/* TODO: Change colorof teh answer buttons*/
+.choice-container{
+    display: flex;;
+    margin: 0.8rem;
+    width: 100px;
+    border-radius: 4px;
+    background: blue;
+    font-size: 3rem;
+    min-width: 80rem;
+    
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(9,121,9,1);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix{
+    padding: 2rem 2.5rem;
+    color: aliceblue;
+}
+
+.choice-text{
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background: red;
+}
+
+
+ /* Heads up Display */
+
+ #hud{
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ .hud-prefix{
+     font-size: 3rem;
+     text-align: center;
+ }
+
+.hud-main-text{
+    text-align: center;
+}
+
+#timerBar{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid red;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 50px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+#timerBarEmpty{
+    height: 100%;
+    background: red;
+    width: 100%;
+}
+
+@media screen and (max-width: 700px){
+    .choice-container{
+        width: 40rem;
+    }
+}
