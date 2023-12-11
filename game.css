@@ -76,7 +76,7 @@ body{
 }
 
 @media screen and (max-width: 700px){
-    .choice-container{
+    .container{
         width: 40rem;
     }
 }
