@@ -17,7 +17,7 @@ let questions = [
      choice2: 'Venus',  
      choice3: 'Earth',  
      choice4: 'Mars',
-     answer: 1,  
+     answer:1,  
     },
     {
      questions: 'How many hearts does an octopus have?',
@@ -25,7 +25,7 @@ let questions = [
      choice2: '3',  
      choice3: '11',  
      choice4: '1',
-     answer: 2,  
+     answer:2,  
     },
     {
      questions: 'In what country was Elon Musk born?',
@@ -33,7 +33,7 @@ let questions = [
      choice2: 'Germany',  
      choice3: 'US',  
      choice4: 'Nowhere, he is an alien form Mars :)',
-     answer: 1,  
+     answer:1,  
     },
     {
      questions: 'What country has the most islands in the world?',
@@ -41,7 +41,7 @@ let questions = [
      choice2: 'Indonesia',  
      choice3: 'Norway',  
      choice4: 'Finland',
-     answer: 1,  
+     answer:1,  
     },
 
 ]
@@ -81,7 +81,7 @@ getNewQuestion = () => {
 
     acceptingAnswers = true;
 }    
-
+//TODO: Is not working properly
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return;
@@ -89,7 +89,7 @@ choices.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';; 
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct': 'incorrect';
 
         if(classToApply === 'correct'){
             incrementScore(SCORE_POINTS);
@@ -106,7 +106,7 @@ choices.forEach(choice => {
 
 incrementScore = num => {
     score += num;
-    scoreTecxt.innerText = score;
+    scoreText.innerText = score;
 }
 
 startGame();
