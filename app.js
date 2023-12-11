@@ -56,7 +56,6 @@ startGame = () => {
     getNewQuestion();
 }
 
-//TODO: add timer
 
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
@@ -66,7 +65,7 @@ getNewQuestion = () => {
 
     questionCounter++;
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
-    //Update the progress bar
+    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
@@ -81,7 +80,7 @@ getNewQuestion = () => {
 
     acceptingAnswers = true;
 }    
-//TODO: Is not working properly
+
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return;
