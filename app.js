@@ -18,5 +18,30 @@ let questions = [
      choice3: '21',  
      choice4: '4',
      answer:4,  
-    }
+    },
+    {
+     questions: 'What is 2 + 2?',
+     choice1: '2',  
+     choice2: '3',  
+     choice3: '21',  
+     choice4: '4',
+     answer:4,  
+    },
+    {
+     questions: 'What is 2 + 2?',
+     choice1: '2',  
+     choice2: '3',  
+     choice3: '21',  
+     choice4: '4',
+     answer:4,  
+    },
+    {
+     questions: 'What is 2 + 2?',
+     choice1: '2',  
+     choice2: '3',  
+     choice3: '21',  
+     choice4: '4',
+     answer:4,  
+    },
+
 ]
