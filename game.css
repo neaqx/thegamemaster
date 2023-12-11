@@ -3,7 +3,7 @@ body{
 
 }
 
-/* TODO: Change colorof teh answer buttons*/
+/* TODO: Change color of the answer buttons*/
 .choice-container{
     display: flex;;
     margin: 0.8rem;
