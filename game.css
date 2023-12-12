@@ -3,13 +3,12 @@ body{
 
 }
 
-/* TODO: Change color of the answer buttons*/
 .choice-container{
     display: flex;;
     margin: 0.8rem;
     width: 100px;
     border-radius: 4px;
-    background: blue;
+    background: #547AA5;
     font-size: 3rem;
     min-width: 80rem;
     
@@ -17,7 +16,7 @@ body{
 
 .choice-container:hover{
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(9,121,9,1);
+    box-shadow:aliceblue;
     transform: scale(1.02);
     transform: transform 100ms;
 }
@@ -75,6 +74,7 @@ body{
     width: 100%;
 }
 
+/* TODO: Fixing Mobil Version  */
 @media screen and (max-width: 768px){
     .choice-container{
        min-width: 100%;
