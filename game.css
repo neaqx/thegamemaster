@@ -3,8 +3,12 @@ body{
 
 }
 
+.container{
+    margin-top: 10px;
+}
+
 .choice-container{
-    display: flex;;
+    display: flex;
     margin: 0.8rem;
     width: 100px;
     border-radius: 4px;
@@ -74,10 +78,33 @@ body{
     width: 100%;
 }
 
-/* TODO: Fixing Mobil Version  */
+
 @media screen and (max-width: 768px){
-    .choice-container{
-       min-width: 100%;
-    }
+
+   #progressBar{
+       width: 10rem;
+   }
+
+   #hud{
+    margin-top: 100px;
+   }
+
+ #question{
+        /* font-size: 1.3rem; */
+        text-align: center;
+        margin-top: 50px;
+        margin-left:10px;
+        margin-right: 10px;
+ }
+
+.choice-container {
+    display: flex;
+    padding: auto;
+    min-width: 23rem;
+    
+
 }
+}
+    
+
     

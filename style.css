@@ -148,3 +148,72 @@ input::placeholder{
 border: none;
 }
 
+@media screen and (max-width: 768px) {
+
+    .container{
+        flex-direction: column;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .end-form-container{
+        min-width: 20rem;
+    }
+
+    #username{
+        width: 100%;
+    }
+
+    #end-text{
+        font-size: 2rem;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    .btn{
+        font-size: 2rem;
+    }
+
+    input{
+        font-size: 1.4rem;
+    }
+
+    .hud-prefix{
+        font-size: 2rem;
+    }
+
+    .hud-main-text{
+        font-size: 2rem;
+    }
+
+    #progressBar{
+        width: 15rem;
+        height: 2rem;
+    }
+
+    #progressBarFull{
+        height: 100%;
+    }
+
+    .choice-prefix{
+        font-size: 1.4rem;
+    }
+
+    .choice-text{
+        font-size: 1.4rem;
+    }
+
+    .fa-trophy{
+        font-size: 2rem;
+    }
+
+ 
+}

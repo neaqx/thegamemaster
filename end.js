@@ -1,13 +1,13 @@
 const username = document.querySelector('#username');
 const saveScoreBtn = document.querySelector('#saveScoreBtn');
-const finalScore = document.querySelector('#finalScore');
-const mostRecentScore = localStorage.getItem('#mostRecentScore');
+const finalScore = document.querySelector('.finalScore');
+const mostRecentScore = localStorage.getItem('mostRecentScore');
 
-// TODO: Score didnt count
-consthighScores = JSON.parse(localStorage.getItem('highScores')) || [];
+const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 const MAX_HIGH_SCORES = 5;
 
+// Storage highscore and dispaly input option for username/game name
 finalScore.innerText = mostRecentScore;
 
 username.addEventListener('keyup', () => {
