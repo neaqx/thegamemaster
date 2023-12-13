@@ -74,7 +74,7 @@ h2{
     cursor: pointer;
     color: #fff;
     background:#DB162F;
-    box-shadow: aliceblue;
+    box-shadow: 0 0.1rem 1.4rem 0 rgb(236, 236, 236);
     transition: transform 150ms;
     transform: scale(1.03);
 }
@@ -91,7 +91,7 @@ h2{
 }
 
 #scores-btn:hover{
-    box-shadow: aliceblue;
+    box-shadow: 0 0.1rem 1.4rem 0 rgb(236, 236, 236);
     transition: transform 150ms;
     transform: scale(1.03);
 }
