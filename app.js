@@ -10,6 +10,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+//creating question array, with choices and answers
 let questions = [ 
     {
      questions: 'What planet is closest to the sun?',
@@ -46,6 +47,7 @@ let questions = [
 
 ]
 
+//constants for score points and max questions
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 4;
 
@@ -56,7 +58,7 @@ startGame = () => {
     getNewQuestion();
 }
 
-
+// creating function for new question
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
         localStorage.setItem('mostRecentScore', score);
@@ -67,6 +69,7 @@ getNewQuestion = () => {
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
 
+    //creating random question
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.questions;
