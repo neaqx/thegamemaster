@@ -2,7 +2,7 @@ const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progessText');
 const scoreText = document.querySelector('#score');
-const timerBarEmpty = document.querySelector('#timerBarEmpty');
+const progressBarFull = document.querySelector('#progressBarFull');
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -106,7 +106,7 @@ let questions = [
      choice2: 'George Washington',  
      choice3: 'John Adams',  
      choice4: 'Thomas Jefferson',
-     answer:1,  
+     answer:2,  
     },
     
 
@@ -114,13 +114,20 @@ let questions = [
 
 //constants for score points and max questions
 const SCORE_POINTS = 100;
-const MAX_QUESTIONS =7;
+const MAX_QUESTIONS = 7;
 
 startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions]
     getNewQuestion();
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; 
+    }
 }
 
 // creating function for new question
@@ -136,17 +143,25 @@ getNewQuestion = () => {
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
 
+
     //creating random question 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.questions;
+    
+    //creating random choices by using shuffleArray function
+     const choicesArray = [
+        { text: currentQuestion.choice1, number: 1 },
+        { text: currentQuestion.choice2, number: 2 },
+        { text: currentQuestion.choice3, number: 3 },
+        { text: currentQuestion.choice4, number: 4 }
+    ];
+    shuffleArray(choicesArray);
 
-    // TODO: Create random answers
-    //creating choices for questions
-    choices.forEach(choice => {
-        const number = choice.dataset['number'];
-        choice.innerText = currentQuestion['choice' + number];
-    })
+    choices.forEach((choice, index) => {
+        choice.innerText = choicesArray[index].text;
+        choice.dataset['number'] = choicesArray[index].number;
+    });
 
     availableQuestions.splice(questionIndex, 1);
 
