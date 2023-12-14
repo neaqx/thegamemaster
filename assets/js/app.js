@@ -114,10 +114,10 @@ let questions = [
 
 //constants for score points and max questions
 const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 7;
+const MAX_QUESTIONS = 8;
 
 startGame = () => {
-    questionCounter = 1;
+    questionCounter = 0;
     score = 0;
     availableQuestions = [...questions]
     getNewQuestion();
@@ -164,7 +164,6 @@ getNewQuestion = () => {
     });
 
     availableQuestions.splice(questionIndex, 1);
-
     acceptingAnswers = true;
 }    
 
