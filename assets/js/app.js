@@ -44,12 +44,77 @@ let questions = [
      choice4: 'Finland',
      answer:1,  
     },
+    {
+     questions: 'What is the name of the largest ocean on Earth?',
+     choice1: 'North Sea',  
+     choice2: 'Atlantic Ocean',  
+     choice3: 'Pacific Ocean',  
+     choice4: 'Indian Ocean',
+     answer:3,  
+    },
+    {
+     questions: 'What famous music group was John Lennon a part of before pursuing a solo career?',
+     choice1: 'The Beatles',  
+     choice2: 'The Rolling Stones',  
+     choice3: 'The Who',  
+     choice4: 'Take That',
+     answer:1,  
+    },
+    {
+     questions: 'In the story of Snow White, how many dwarfs are there?',
+     choice1: '7',  
+     choice2: '8',  
+     choice3: '9',  
+     choice4: '10',
+     answer:1,  
+    },
+    {
+     questions: 'In what galaxy is our solar system located?',
+     choice1: 'Andromeda',  
+     choice2: 'Milky Way',  
+     choice3: 'Messier 81',  
+     choice4: 'Messier 82',
+     answer:2,  
+    },
+    {
+     questions: 'Which geometric shape has four equal sides and four right angles?',
+     choice1: 'Quadrilateral',  
+     choice2: 'Triangle',  
+     choice3: 'Circle',  
+     choice4: 'Square',
+     answer:4,  
+    },
+    {
+     questions: 'What is the main ingredient in the dish sushi?',
+     choice1: 'Pasta',  
+     choice2: 'Rice',  
+     choice3: 'Potato',  
+     choice4: 'Fish',
+     answer:2,  
+    },
+    {
+     questions: 'Who painted the Mona Lisa?',
+     choice1: 'Leonardo da Vinci',  
+     choice2: 'Vincent van Gogh',  
+     choice3: 'Pablo Picasso', 
+     choice4: 'Claude Monet',
+     answer:1,  
+    },
+    {
+     questions: 'Who is known as the “Father of the United States” and the first President of the country?',
+     choice1: 'Samuel Adams',  
+     choice2: 'George Washington',  
+     choice3: 'John Adams',  
+     choice4: 'Thomas Jefferson',
+     answer:1,  
+    },
+    
 
 ]
 
 //constants for score points and max questions
 const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 4;
+const MAX_QUESTIONS =7;
 
 startGame = () => {
     questionCounter = 0;
