@@ -61,40 +61,31 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
 ## Features
 
 * The primary goal of Game Master is to create a captivating and interactive space where users can not only test but also enhance their knowledge. This platform is thoughtfully designed to engage users in an immersive learning experience, making the exploration of general knowledge. 
-* High Scores table that displays high scores from different players in the local enviroment
+* High Scores table that displays high scores from different play sessions in the local enviroment
 * Responsive design that is optimized for different devices, such as desktop computers, tablets, and smartphones.
 
 ### Existing Features
 
 * Game Master Logo and Heading
-    * It is prominently displayed at the top of the page, ensuring that users can easily locate and identify the game. Upon visiting the website, the user's attention will be immediately drawn to the game's name, which is displayed in a clear and visible manner.
+    * The game's prominent placement at the top of the webpage ensures easy visibility and quick identification for users. As soon as visitors arrive at the site, they are immediately greeted with the eye-catching and clearly visible question 'Are you ready?' This strategic positioning and clear messaging instantly capture the user's attention, setting the stage for an engaging and interactive experience.
     
 ![Logo and Heading](/assets/images/capital-cities-logo.PNG)
 
-* Quiz landing page
-    * User profile section for setting up a username and saving it.
-    * Start game button, which only can be accesed if the user has set a username.
-    * High scores button for displaying top scores of players.
-    * How to play button with detailed game instructions.
+* Game page / Interface
+    * Start game button, which can be accesed without an username.
+    * Recent scores display in the top right conor and the number of questions on the left top conor.
+    * Quiz questions are in the middle of the page.
+    * The progress bar is located under question counter
 
 ![Interface](/assets/images/la)
 
-* High Scores
-    * High Scores page is designed to encourage friendly competition and motivate users to improve their scores. The unlock feature ensures that users can only access the high scores table after they have played the quiz, adding an element of challenge and engagement to the game.
+* Final Page
+    * After the game, user can enter their username and save their score to the local storage.
+    * Play again button, which allows users to play the quiz again.
+    * Go Home button, which allows users to go back to the home page, where the leaderbroad is located.
 
 ![High Scores locked](/assets/images/locked-table.PNG)
 
-* How to Play 
-    * Toggle button that displays detailed game instructions.
-
-![How to Play](/assets/images/rules.PNG)
-
-* Quiz interface
-    * Question counter.
-    * Score counter.
-    * Question and three options to choose from.
-
-![Quiz interface](/assets/images/quiz-interface.PNG)
 
 * Quiz Result
     * User's username and quiz performance: This feature displays the user's username and how well they performed in the quiz, giving them a sense of achievement and satisfaction.
