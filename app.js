@@ -75,6 +75,7 @@ getNewQuestion = () => {
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.questions;
 
+    // TODO: Create random answers
     //creating choices for questions
     choices.forEach(choice => {
         const number = choice.dataset['number'];
