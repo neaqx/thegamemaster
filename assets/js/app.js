@@ -159,7 +159,7 @@ getNewQuestion = () => {
 
     choices.forEach((choice, index) => {
         choice.innerText = choicesArray[index].text;
-        choice.dataset['number'] = choicesArray[index].number;
+        choice.dataset["number"] = choicesArray[index].number;
 
         if (choice.number === currentQuestion.answer) {
             currentQuestion.answer = index + 1;
