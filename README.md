@@ -33,15 +33,15 @@ The Game Master is a game where users can test their knowledge against a multitu
 ---
 ## User Experience (UX)
 
-Capital Cities quiz provides an enjoyable and educational experience that challenges users to test their knowledge of geography. With its easy-to-use interface and leaderboard feature, this quiz is sure to keep users engaged and coming back for more.
+Game Master elevates the joy of learning with an interactive and enlightening geography challenge. Its user-friendly interface, complemented by a competitive leaderboard, not only tests but also enhances your geographical knowledge. This engaging quiz promises an immersive experience, ensuring users remain captivated and motivated to return for further exploration and learning.
 
 ### User Stories
 
 * First-time visitor goals
     * Understand the main purpose of the website, that its a quiz game.
-    * Creating a username.
-    * Taking the quiz.
-    * Checking their score in the High Scores Table.
+    * Starting quiz-game.
+    * Taking the quiz with eight and one bonus questions.
+    * Checking & typing their score in the High Scores inputflied.
     * Enjoying the overall experience.
 
 * Returning visitor goals
