@@ -60,13 +60,13 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
 
 ## Features
 
-* Main objective is to provide an engaging and interactive platform for users to test and improve their knowledge of world geography.
+* The primary goal of Game Master is to create a captivating and interactive space where users can not only test but also enhance their knowledge. This platform is thoughtfully designed to engage users in an immersive learning experience, making the exploration of general knowledge. 
 * High Scores table that displays high scores from different players in the local enviroment
 * Responsive design that is optimized for different devices, such as desktop computers, tablets, and smartphones.
 
 ### Existing Features
 
-* Capital Cities Logo and Heading
+* Game Master Logo and Heading
     * It is prominently displayed at the top of the page, ensuring that users can easily locate and identify the game. Upon visiting the website, the user's attention will be immediately drawn to the game's name, which is displayed in a clear and visible manner.
     
 ![Logo and Heading](/assets/images/capital-cities-logo.PNG)
@@ -106,16 +106,10 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
 
 * High Scores table
     * Username column: This column will display the usernames of different players who have achieved high scores.
-    * Score column: This column will display the scores achieved by each player, sorted from best to worst score.
     *High Scores table is designed to showcase top performers and encourage friendly competition among players. It includes essential information such as usernames and scores, allowing users to compare their performance and track their progress over time.
     * This table will only include players from local enviroment, meaning from the same device.
 
 ![High Score table](/assets/images/unlocked-table.PNG)
-
-* Footer
-    * Holds the name of the developer.
-
-![Footer](/assets/images/footer.PNG)
 
 ## Features Left to Implement
 
