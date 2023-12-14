@@ -1,7 +1,7 @@
 # The Game Master
 The Game Master is a game where users can test their knowledge against a multitude of questions. This game allows participants to record their high scores and self-assess their performance. Moreover, it offers the capability to create a unique username and save it locally. The quiz comprises a diverse range of questions from various categories. Through this, users can challenge themselves, fostering a competitive mindset.
 
-![Am I responsive](/assets/images/am-i-responsive.png)
+![Am I responsive](/assets/images/am_I_responsive.png)
 
 [View Game Master live project here](https://thomas-tomo.github.io/capital-cities/)
 - - -
@@ -77,7 +77,7 @@ Capital Cities quiz provides an enjoyable and educational experience that challe
     * High scores button for displaying top scores of players.
     * How to play button with detailed game instructions.
 
-![Interface](/assets/images/interface.PNG)
+![Interface](/assets/images/la)
 
 * High Scores
     * High Scores page is designed to encourage friendly competition and motivate users to improve their scores. The unlock feature ensures that users can only access the high scores table after they have played the quiz, adding an element of challenge and engagement to the game.
