@@ -1,125 +1,322 @@
-# Love Maths
+# The Game Master
+The Game Master is a game where users can test their knowledge against a multitude of questions. This game allows participants to record their high scores and self-assess their performance. Moreover, it offers the capability to create a unique username and save it locally. The quiz comprises a diverse range of questions from various categories. Through this, users can challenge themselves, fostering a competitive mindset.
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+![Am I responsive](/assets/images/am-i-responsive.PNG)
 
-For example, Love Maths is a site that hopes to demonstrate how pure JavaScript works in a real-world context. The site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also maths. Love Maths is a fully responsive JavaScript maths game that will allow users to add, subtract, multiply and divide numbers. 
+[View Capital Cities live project here](https://thomas-tomo.github.io/capital-cities/)
+- - -
+## Table of Contents
 
-![Responsice Mockup](media/love_maths_mockup.png)
+### [User Experience (UX)](#user-experience-ux-1)
+* [User Stories](#user-stories)
+### [Features](#features-1)
+* [Existing Features](#existing-features)
+### [Features Left to Implement](#features-left-to-implement-1)
+### [Design](#design-1)
+### [Technologies Used](#technologies-used-1)
+### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
+### [Testing](#testing-1)
+* [Validation Results](#validation-results)
+* [JSHint Results](#jshint-results)
+* [Manual Testing](#manual-testing)
+* [Fixed Bugs](#fixed-bugs)
+* [Lighthouse Report](#lighthouse-report)
+### [Deployment](#deployment-1)
+* [GitHub Pages](#github-pages)
+* [Forking the GitHub Repository](#forking-the-github-repository)
+* [Local Clone](#local-clone)
+### [Credits](#credits-1)
+* [Code](#code)
+* [Content](#content)
+* [Media](#media)
+### [Acknowledgements](#acknowledgements-1)
+---
+## User Experience (UX)
 
-## Features 
+Capital Cities quiz provides an enjoyable and educational experience that challenges users to test their knowledge of geography. With its easy-to-use interface and leaderboard feature, this quiz is sure to keep users engaged and coming back for more.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### User Stories
+
+* First-time visitor goals
+    * Understand the main purpose of the website, that its a quiz game.
+    * Creating a username.
+    * Taking the quiz.
+    * Checking their score in the High Scores Table.
+    * Enjoying the overall experience.
+
+* Returning visitor goals
+    * Improving their score.
+    * Exploring new features.
+    * Checking high scores.
+    * Continuing to enjoy the overall experience.
+
+* Frequent user goals
+    * Aim to master the quiz by achieving a perfect score.
+    * Competing with other users in their local enviroment.
+    * Exploring new features.
+    * Continuing to enjoy the overall experience.
+
+---
+
+## Features
+
+* Main objective is to provide an engaging and interactive platform for users to test and improve their knowledge of world geography.
+* High Scores table that displays high scores from different players in the local enviroment
+* Responsive design that is optimized for different devices, such as desktop computers, tablets, and smartphones.
 
 ### Existing Features
 
-- __The Love Maths Logo and Heading__
+* Capital Cities Logo and Heading
+    * It is prominently displayed at the top of the page, ensuring that users can easily locate and identify the game. Upon visiting the website, the user's attention will be immediately drawn to the game's name, which is displayed in a clear and visible manner.
+    
+![Logo and Heading](/assets/images/capital-cities-logo.PNG)
 
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+* Quiz landing page
+    * User profile section for setting up a username and saving it.
+    * Start game button, which only can be accesed if the user has set a username.
+    * High scores button for displaying top scores of players.
+    * How to play button with detailed game instructions.
 
-![Logo](media/love_maths_logo.png)
+![Interface](/assets/images/interface.PNG)
 
-- __The Game Area__
+* High Scores
+    * High Scores page is designed to encourage friendly competition and motivate users to improve their scores. The unlock feature ensures that users can only access the high scores table after they have played the quiz, adding an element of challenge and engagement to the game.
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
+![High Scores locked](/assets/images/locked-table.PNG)
 
-![Game](media/love_maths_icons.png)
+* How to Play 
+    * Toggle button that displays detailed game instructions.
 
-- __The Question section__
+![How to Play](/assets/images/rules.PNG)
 
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
+* Quiz interface
+    * Question counter.
+    * Score counter.
+    * Question and three options to choose from.
 
-![Question](media/love_maths_question.png)
+![Quiz interface](/assets/images/quiz-interface.PNG)
 
-- __The Score Area__
+* Quiz Result
+    * User's username and quiz performance: This feature displays the user's username and how well they performed in the quiz, giving them a sense of achievement and satisfaction.
+    * Score display: This feature displays the user's final score, reflecting their performance in the quiz.
+    * Play again button: This button allows users to play the quiz again.
+    * High scores button: This button allows users to view the high scores table.
 
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
+![Quiz Result](/assets/images/quiz-result.PNG)
 
-![score](media/love_maths_answer.png)
+* High Scores table
+    * Username column: This column will display the usernames of different players who have achieved high scores.
+    * Score column: This column will display the scores achieved by each player, sorted from best to worst score.
+    *High Scores table is designed to showcase top performers and encourage friendly competition among players. It includes essential information such as usernames and scores, allowing users to compare their performance and track their progress over time.
+    * This table will only include players from local enviroment, meaning from the same device.
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+![High Score table](/assets/images/unlocked-table.PNG)
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+* Footer
+    * Holds the name of the developer.
 
-### Features Left to Implement
+![Footer](/assets/images/footer.PNG)
 
-- Another feature idea
+## Features Left to Implement
 
-## Testing 
+* Additional questions might be available
+* Additional quiz types:
+    * Capital Cities of Countries quiz can be divided into different versions based on the continent
+* The quiz interface can include a timer feature to add an element of urgency to the game. 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+---
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+## Design
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+ * Colour Scheme
+    * Primary colors used on the website: ![Color Scheme](/assets/images/color-scheme.PNG)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+ * Typography
+    * Domine font is the main font used throughout the website with serif as its fallback font.
 
+ * Wireframes
+    * Pen and paper in the notebook: simple and effective.
 
-### Validator Testing 
+---
 
-- HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
-- CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-- JavaScript
-    - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
-      - The following metrics were returned: 
-      - There are 11 functions in this file.
-      - Function with the largest signature takes 2 arguments, while the median is 0.
-      - Largest function has 10 statements in it, while the median is 3.
-      - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+## Technologies Used
 
-### Unfixed Bugs
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* To handle data in my JavaScript code, I used [JSON](https://en.wikipedia.org/wiki/JSON) as a data format.
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+---
+
+## Frameworks, Libraries & Programs Used
+
+* [Gitpod](https://www.gitpod.io/)
+    * To write the code.
+* [Git](https://git-scm.com/)
+    * for vesion control.
+* [Github](https://github.com/)
+    * Deployment of the website and storing the files online.
+* [Google Fonts](https://fonts.google.com/)
+    * Import main font the website.
+* [Am I Responsive](https://ui.dev/amiresponsive)
+    * Mockup picture for the README file.
+
+---
+
+## Testing
+
+The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Quality Tool were used to validate every html, css, and js file to ensure there were no errors.
+
+* [W3C Markup Validator](https://validator.w3.org/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+* [JSHint](https://jshint.com/)
+
+### Validation results
+
+<details>
+<summary>HTML files, no errors were returned when passing through the official W3C Markup Validator.
+</summary>
+
+![Home Page validation result](/assets/images/html-validation.PNG)
+</details>
+
+<details>
+<summary>CSS file, No errors were found when passing through the official W3C CSS Validator. 
+</summary>
+
+![Home Page validation result](/assets/images/css-validation.PNG)
+</details>
+
+### JSHint results
+
+<details>
+<summary>index.js, No errors were found when passing through the official Jshint validator.
+</summary>
+
+![Home Page validation result](/assets/images/index-js.PNG)
+</details>
+
+<details>
+<summary>quiz.js, No errors were found when passing through the official Jshint validator.
+</summary>
+
+![Home Page validation result](/assets/images/quiz-js.PNG)
+</details>
+
+<details>
+<summary>quiz-end.js, No errors were found when passing through the official Jshint validator.
+</summary>
+
+![Home Page validation result](/assets/images/quiz-end-js.PNG)
+</details>
+
+<details>
+<summary>highscores.js, No errors were found when passing through the official Jshint validator.
+</summary>
+
+![Home Page validation result](/assets/images/highscores-js.PNG)
+</details>
+
+### Manual Testing 
+
+* The website was tested on Google Chrome, Microsoft Edge, and Opera browsers.
+* The website was viewed on a desktop computer, laptop, tablet, and a variety of mobile phones, such as Samsung Galaxy A52.
+* A large amount of testing was done to ensure links between pages are working correctly on all pages.
+* Family and friends were asked to review the website for a better understanding of the user experience.
+* Family and friends were asked to play the quiz and give feedback.
+* Dev Tools was used to test how the site looks on various screen sizes.
+* Dev Tools Console was used to find any bugs that were not spotted.
+* Dev Tools Application's local storage used to track is the code functioning as intended.
+* Manually navigating to specific HTML pages by typing the URL of the page and checking the console and local storage.
+* JSHint was used to check quality of the code and any errors missed by the developer.
+
+### Fixed Bugs
+
+* By manually navigating to specific HTML pages by typing the URL of the page and checking the console and local storage
+* By manually navigating to quiz-end.html there was a bug displaying null value of the username and score variables that were stored it the local storage.
+* Bug was fixed with window.location.href, if a user tries to navigate to the quiz-end.html manually it redirects them to the index.html page because they didin't play the quiz yet.
+* The code checks if the mostRecentScore is -1 and that is how it triggers the redirect to index.html page
+* If somebody decided to clear all key, value properties from the local storage they still would not be able to start the quiz.
+* The website is protected from users starting the game without a username.
+
+### Lighthouse Report
+
+#### Mobile analysis
+<details>
+<summary>Performance
+</summary>
+
+![Home Page lighthouse report](/assets/images/lighthouse-report-mobile.PNG)
+</details>
+
+#### Desktop analysis
+
+<details>
+<summary>Performance
+</summary>
+
+![Home Page lighthouse report](/assets/images/lighthouse-report-desktop.PNG)
+</details>
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+### GitHub Pages
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+GitHub Pages used to deploy live version of the website.
+1. Log in to GitHub and locate [GitHub Repository capital-cities](https://github.com/Thomas-Tomo/capital-cities)
+2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
+3. Scroll down the Settings page until you locate "GitHub Pages".
+4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
+5. The page will automatically refresh.
+6. Scroll back to locate the now-published site [link](https://thomas-tomo.github.io/capital-cities/) in the "GitHub Pages" section.
 
-The live link can be found here - https://code-institute-org.github.io/love-maths/
+### Forking the GitHub Repository
 
+By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
 
-## Credits 
+1. Log in to GitHub and locate [GitHub Repository capital-cities](https://github.com/Thomas-Tomo/capital-cities)
+2. At the top of the Repository(under the main navigation) locate "Fork" button.
+3. Now you should have a copy of the original repository in your GitHub account.
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+### Local Clone
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+1. Log in to GitHub and locate [GitHub Repository capital-cities](https://github.com/Thomas-Tomo/capital-cities)
+2. Under the repository name click "Clone or download"
+3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone` and then paste The URL copied in the step 3.
+7. Press Enter and your local clone will be created.
 
-### Content 
+---
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+## Credits
+
+### Code
+
+ * I gained an understanding of JSON (JavaScript Object Notation) through the book 'JavaScript and jQuery' written by Jon Duckett.
+ * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/readme-love-maths/blob/master/README.md)
+ * Mozilla Developer Network (MDN) for understanding JavaScript built-in methods.
+ * After reading 'JavaScript and jQuery' by Jon Duckett, I gained an understanding of localStorage and how it can be used in web development.
+ * MDN Web Docs: HTMLTableElement.insertRow(): [link](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/insertRow), helped me to understand insertRow() method.
+ * MDN Web Docs: [link]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), helped me understand arrow functions.
+ 
+ ### Content
+
+  * All content was written by the developer.
+  * [Font Awesome](https://fontawesome.com/) was used to obtain the free icon for the header.
+  * Same icon was used to create a favicon the the website.
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+ * [Font Awesome](https://fontawesome.com/)
+ * [Color Mind](http://colormind.io/)
+ * [Am I responsive?](https://ui.dev/amiresponsive)
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+---
 
-## Other General Project Advice
+## Acknowledgements
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+ * My mentor Mitko Bachvarov provided helpful feedback.
+ * Slack community for encouragement.
