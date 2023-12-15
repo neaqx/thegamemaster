@@ -155,16 +155,17 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 <summary>HTML files, no errors were returned when passing through the official W3C Markup Validator.
 </summary>
 
-![Home Page validation result](/assets/images/html-validation.PNG)<br>
-![Home Page validation result](/assets/images/html-validation.PNG)<br>
-![Home Page validation result](/assets/images/html-validation.PNG)<br>
+![Home Page validation result](/assets/images/w3vcheckindex.png)<br>
+![Home Page validation result](/assets/images/w3vcheckend.png)<br>
+![Home Page validation result](/assets/images/w3vcheckscore.png)<br>
+![Home Page validation result](/assets/images/w3vcheckgame.png)<br>
 </details>
 
 <details>
 <summary>CSS files, No errors were found when passing through the official W3C CSS Validator. 
 </summary>
 
-![Home Page validation result](assets/images/w3vcheckcss.PNG)
+![Home Page validation result](assets/images/w3vcheckcss.png)
 </details>
 
 ### JSHint results
@@ -190,17 +191,11 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 ![Home Page validation result](/assets/images/quiz-end-js.PNG)
 </details>
 
-<details>
-<summary>highscores.js, No errors were found when passing through the official Jshint validator.
-</summary>
-
-![Home Page validation result](/assets/images/highscores-js.PNG)
-</details>
 
 ### Manual Testing 
 
 * The website was tested on Google Chrome, Microsoft Edge, and Opera browsers.
-* The website was viewed on a desktop computer, laptop, tablet, and a variety of mobile phones, such as Samsung Galaxy A52.
+* The website was viewed on a desktop computer, laptop, tablet, and a variety of mobile phones, such as Iphone 14.
 * A large amount of testing was done to ensure links between pages are working correctly on all pages.
 * Family and friends were asked to review the website for a better understanding of the user experience.
 * Family and friends were asked to play the quiz and give feedback.
@@ -213,11 +208,11 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 ### Fixed Bugs
 
 * By manually navigating to specific HTML pages by typing the URL of the page and checking the console and local storage
-* By manually navigating to quiz-end.html there was a bug displaying null value of the username and score variables that were stored it the local storage.
-* Bug was fixed with window.location.href, if a user tries to navigate to the quiz-end.html manually it redirects them to the index.html page because they didin't play the quiz yet.
+* Fixed leaderboard bug, where the leaderboard was not displaying the scores correctly.
+* Routing was fixed by testimng the code and checking the console and local storage.
 * The code checks if the mostRecentScore is -1 and that is how it triggers the redirect to index.html page
-* If somebody decided to clear all key, value properties from the local storage they still would not be able to start the quiz.
-* The website is protected from users starting the game without a username.
+
+
 
 ### Lighthouse Report
 
@@ -243,24 +238,24 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 ### GitHub Pages
 
 GitHub Pages used to deploy live version of the website.
-1. Log in to GitHub and locate [GitHub Repository capital-cities](https://github.com/Thomas-Tomo/capital-cities)
+1. Log in to GitHub and locate [GitHub Repository Game Master](https://github.com/neaqx/thegamemaster)
 2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
 3. Scroll down the Settings page until you locate "GitHub Pages".
 4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
 5. The page will automatically refresh.
-6. Scroll back to locate the now-published site [link](https://thomas-tomo.github.io/capital-cities/) in the "GitHub Pages" section.
+6. Scroll back to locate the now-published site [link](https://neaqx.github.io/thegamemaster/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
 
-1. Log in to GitHub and locate [GitHub Repository capital-cities](https://github.com/Thomas-Tomo/capital-cities)
+1. Log in to GitHub and locate [GitHub Repository Game Master](https://github.com/neaqx/thegamemaster)
 2. At the top of the Repository(under the main navigation) locate "Fork" button.
 3. Now you should have a copy of the original repository in your GitHub account.
 
 ### Local Clone
 
-1. Log in to GitHub and locate [GitHub Repository capital-cities](https://github.com/Thomas-Tomo/capital-cities)
+1. Log in to GitHub and locate [GitHub Repository Game Master](https://github.com/neaqx/thegamemaster)
 2. Under the repository name click "Clone or download"
 3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open Git Bash
