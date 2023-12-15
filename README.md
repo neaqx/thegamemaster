@@ -16,7 +16,6 @@ The Game Master is a game where users can test their knowledge against a multitu
 ### [Technologies Used](#technologies-used-1)
 ### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
 ### [Testing](#testing-1)
-^ts)
 * [JSHint Results](#jshint-results)
 * [Manual Testing](#manual-testing)
 * [Fixed Bugs](#fixed-bugs)
