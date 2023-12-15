@@ -78,7 +78,7 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
     * Play again button, which allows users to play the quiz again.
     * Go Home button, which allows users to go back to the home page, where the leaderbroad is located.
 
-![End-Page](/assets/images/endpage.png)
+![End-Page](/assets/images/end-page.png)
 
 
 * Quiz Result
@@ -164,7 +164,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 <summary>CSS files, No errors were found when passing through the official W3C CSS Validator. 
 </summary>
 
-![Home Page validation result](assets/images/w3vcheckcss.png)
+![Home Page validation result](/assets/images/css-validation.png)
 </details>
 
 ### JSHint results
