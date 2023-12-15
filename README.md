@@ -108,10 +108,10 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
     * Primary colors used on the website: ![Color Scheme](/assets/images/colorscheme.png)
 
  * Typography
-    * Domine font is the main font used throughout the website with serif as its fallback font.
+    * Nova font is the main font used throughout the website.
 
  * Wireframes
-    * Pen and paper in the notebook: simple and effective.
+    * Pen and paper in the Ipad: simple and effective.
 
 ---
 
@@ -272,9 +272,8 @@ By forking the repository, we make a copy of the original repository on our GitH
  * I gained an understanding of JSON (JavaScript Object Notation) through the book 'JavaScript and jQuery' written by Jon Duckett.
  * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/readme-love-maths/blob/master/README.md)
  * Mozilla Developer Network (MDN) for understanding JavaScript built-in methods.
- * After reading 'JavaScript and jQuery' by Jon Duckett, I gained an understanding of localStorage and how it can be used in web development.
- * MDN Web Docs: HTMLTableElement.insertRow(): [link](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/insertRow), helped me to understand insertRow() method.
- * MDN Web Docs: [link]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), helped me understand arrow functions.
+ * youtube SuperSimpleDev helping me for Basic JS [YouTube Channel](https://www.youtube.com/watch?v=SBmSRK3feww&t=2531s&ab_channel=SuperSimpleDev)
+ 
  
  ### Content
 
