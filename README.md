@@ -71,7 +71,7 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
     * Quiz questions are in the middle of the page.
     * The progress bar is located under question counter
 
-![Interface](/assets/images/landigpage(start).PNG)
+![Screenshot](/assets/images/landigpage(start).PNG)
 
 * Final Page
     * After the game, user can enter their username and save their score to the local storage.
@@ -237,7 +237,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 ### GitHub Pages
 
 GitHub Pages used to deploy live version of the website.
-1. Log in to GitHub and locate [GitHub Repository Game Master](https://github.com/neaqx/thegamemaster)
+1. Log in to GitHub and locate [GitHub Repository Game-Master](https://github.com/neaqx/thegamemaster)
 2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
 3. Scroll down the Settings page until you locate "GitHub Pages".
 4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
@@ -248,13 +248,13 @@ GitHub Pages used to deploy live version of the website.
 
 By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
 
-1. Log in to GitHub and locate [GitHub Repository Game Master](https://github.com/neaqx/thegamemaster)
+1. Log in to GitHub and locate [GitHub Repository Game-Master](https://github.com/neaqx/thegamemaster)
 2. At the top of the Repository(under the main navigation) locate "Fork" button.
 3. Now you should have a copy of the original repository in your GitHub account.
 
 ### Local Clone
 
-1. Log in to GitHub and locate [GitHub Repository Game Master](https://github.com/neaqx/thegamemaster)
+1. Log in to GitHub and locate [GitHub Repository Game-Master](https://github.com/neaqx/thegamemaster)
 2. Under the repository name click "Clone or download"
 3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open Git Bash
