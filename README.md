@@ -114,7 +114,12 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
 ## Design
 
  * Colour Scheme
-    * Primary colors used on the website: ![Color Scheme](/assets/images/color-scheme.PNG)
+    * Primary colors used on the website: 
+        --eerie-black: #1f1f1fff;
+        --green-yellow: #ccff66ff;
+        --blue-violet: #8338ecff;
+        --fire-engine-red: #db162fff;
+        --glaucous: #547aa5ff;
 
  * Typography
     * Domine font is the main font used throughout the website with serif as its fallback font.
