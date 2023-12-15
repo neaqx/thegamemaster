@@ -3,7 +3,7 @@ The Game Master is a game where users can test their knowledge against a multitu
 
 ![Am I responsive](/assets/images/am_I_responsive.png)
 
-[View Game Master live project here](https://thomas-tomo.github.io/capital-cities/)
+[View Game Master live project here](https://neaqx.github.io/thegamemaster/)
 - - -
 ## Table of Contents
 
