@@ -97,7 +97,7 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
 
 * Additional questions might be available
 * Additional quiz types:
-    * "The game features a variety of difficulty levels to cater to a diverse range of users: Easy, Medium, and Hard. Each level is carefully designed to offer a tailored challenge, ensuring that beginners can comfortably start with the basics, while more experienced users can test their skills with more complex questions. This tiered approach allows players to progressively enhance their knowledge and challenge themselves according to their skill level."
+    * The game features a variety of difficulty levels to cater to a diverse range of users: Easy, Medium, and Hard. Each level is carefully designed to offer a tailored challenge, ensuring that beginners can comfortably start with the basics, while more experienced users can test their skills with more complex questions. This tiered approach allows players to progressively enhance their knowledge and challenge themselves according to their skill level.
 
 
 ---
@@ -105,7 +105,7 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
 ## Design
 
  * Colour Scheme
-    * Primary colors used on the website: ![Color Scheme](/assets/images/color-scheme.PNG)
+    * Primary colors used on the website: ![Color Scheme](/assets/images/colorscheme.png)
 
  * Typography
     * Domine font is the main font used throughout the website with serif as its fallback font.
@@ -126,7 +126,7 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
 
 ## Frameworks, Libraries & Programs Used
 
-* [Gitpod](https://www.gitpod.io/)
+* [Visual Studio Code](https://code.visualstudio.com/)
     * To write the code.
 * [Git](https://git-scm.com/)
     * for vesion control.
@@ -136,6 +136,8 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
     * Import main font the website.
 * [Am I Responsive](https://ui.dev/amiresponsive)
     * Mockup picture for the README file.
+ * [COOLORS](https://coolors.co/547aa5-8338ec-ccff66-1f1f1f-db162f)
+    * For color scheme
 
 ---
 
@@ -159,10 +161,10 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 </details>
 
 <details>
-<summary>CSS file, No errors were found when passing through the official W3C CSS Validator. 
+<summary>CSS files, No errors were found when passing through the official W3C CSS Validator. 
 </summary>
 
-![Home Page validation result](/assets/images/css-validation.PNG)
+![Home Page validation result](assets/images/w3vcheck-css.PNG)
 </details>
 
 ### JSHint results
