@@ -164,7 +164,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 <summary>CSS files, No errors were found when passing through the official W3C CSS Validator. 
 </summary>
 
-![Home Page validation result](/assets/images/css-validation.png)
+![css-validation](/assets/images/css-validation.png)
 </details>
 
 ### JSHint results
@@ -173,21 +173,21 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 <summary>app.js, No errors were found when passing through the official Jshint validator.
 </summary>
 
-![Home Page validation result](/assets/images/index-js.PNG)
+![app-validation](/assets/images/index-js.PNG)
 </details>
 
 <details>
 <summary>end.js, No errors were found when passing through the official Jshint validator.
 </summary>
 
-![Home Page validation result](/assets/images/game-js.PNG)
+![game-validation](/assets/images/game-js.PNG)
 </details>
 
 <details>
 <summary>score.js, No errors were found when passing through the official Jshint validator.
 </summary>
 
-![Home Page validation result](/assets/images/score-js.PNG)
+![score-validation](/assets/images/score-js.PNG)
 </details>
 
 
@@ -220,7 +220,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 <summary>Performance
 </summary>
 
-![Home Page lighthouse report](/assets/images/lighthouse-report-mobile.PNG)
+![Home Page lighthouse report](/assets/images/lighthouse-mobile.png)
 </details>
 
 #### Desktop analysis
@@ -229,7 +229,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 <summary>Performance
 </summary>
 
-![Home Page lighthouse report](/assets/images/lighthouse-report-desktop.PNG)
+![Home Page lighthouse report](/assets/images/lighthouse-desktop.png)
 </details>
 
 ## Deployment
