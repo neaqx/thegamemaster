@@ -19,14 +19,14 @@ body {
 
 .choice-container:hover{
     cursor: pointer;
-    box-shadow:aliceblue;
+    box-shadow: 0 0.1rem 1.4rem 0 rgb(236, 236, 236);
     transform: scale(1.02);
-    transform: transform 100ms;
+    transition: transform 100ms;
 }
 
 .choice-prefix{
     padding: 2rem 2.5rem;
-    color: aliceblue;
+    color: #fff;
 }
 
 .choice-text{
@@ -98,7 +98,6 @@ body {
 
 .choice-container {
     display: flex;
-    padding: auto;
     min-width: 23rem;
     
 
