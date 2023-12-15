@@ -162,9 +162,9 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 <summary>HTML files, no errors were returned when passing through the official W3C Markup Validator.
 </summary>
 
-![Home Page validation result](/assets/images/html-validation.PNG)
-![Home Page validation result](/assets/images/html-validation.PNG)
-![Home Page validation result](/assets/images/html-validation.PNG)
+![Home Page validation result](/assets/images/html-validation.PNG)<br>
+![Home Page validation result](/assets/images/html-validation.PNG)<br>
+![Home Page validation result](/assets/images/html-validation.PNG)<br>
 </details>
 
 <details>
