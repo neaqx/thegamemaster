@@ -164,7 +164,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 <summary>CSS files, No errors were found when passing through the official W3C CSS Validator. 
 </summary>
 
-![Home Page validation result](assets/images/w3vcheck-css.PNG)
+![Home Page validation result](assets/images/w3vcheckcss.PNG)
 </details>
 
 ### JSHint results
