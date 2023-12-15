@@ -79,23 +79,19 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
     * Play again button, which allows users to play the quiz again.
     * Go Home button, which allows users to go back to the home page, where the leaderbroad is located.
 
-![High Scores locked](/assets/images/locked-table.PNG)
+![High Scores locked](/assets/images/endpage.png)
 
 
 * Quiz Result
     * User's username and quiz performance: This feature displays the user's username and how well they performed in the quiz, giving them a sense of achievement and satisfaction.
     * Score display: This feature displays the user's final score, reflecting their performance in the quiz.
     * Play again button: This button allows users to play the quiz again.
-  
-
-![Quiz Result](/assets/images/quiz-result.PNG)
-
-* High Scores table
     * Username column: This column will display the usernames of different players who have achieved high scores.
     *High Scores table is designed to showcase top performers and encourage friendly competition among players. It includes essential information such as usernames and scores, allowing users to compare their performance and track their progress over time.
-    * This table will only include players from local enviroment, meaning from the same device.
+    * This table will only include players from local enviroment, meaning from the same device. 
 
-![High Score table](/assets/images/unlocked-table.PNG)
+![Quiz Result](/assets/images/quizresultpage.png)
+
 
 ## Features Left to Implement
 
