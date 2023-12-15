@@ -16,7 +16,7 @@ The Game Master is a game where users can test their knowledge against a multitu
 ### [Technologies Used](#technologies-used-1)
 ### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
 ### [Testing](#testing-1)
-* [Validation Results](#validation-results)
+^ts)
 * [JSHint Results](#jshint-results)
 * [Manual Testing](#manual-testing)
 * [Fixed Bugs](#fixed-bugs)
@@ -69,7 +69,7 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
 * Game Master Logo and Heading
     * The game's prominent placement at the top of the webpage ensures easy visibility and quick identification for users. As soon as visitors arrive at the site, they are immediately greeted with the eye-catching and clearly visible question 'Are you ready?' This strategic positioning and clear messaging instantly capture the user's attention, setting the stage for an engaging and interactive experience.
     
-![Logo and Heading](/assets/images/capital-cities-logo.PNG)
+![Logo and Heading](/assets/images/gamemaster%20logo.png)
 
 * Game page / Interface
     * Start game button, which can be accesed without an username.
@@ -77,7 +77,7 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
     * Quiz questions are in the middle of the page.
     * The progress bar is located under question counter
 
-![Interface](/assets/images/la)
+![Interface](/assets/images/landigpage(start).PNG)
 
 * Final Page
     * After the game, user can enter their username and save their score to the local storage.
