@@ -91,7 +91,7 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
     * User's username and quiz performance: This feature displays the user's username and how well they performed in the quiz, giving them a sense of achievement and satisfaction.
     * Score display: This feature displays the user's final score, reflecting their performance in the quiz.
     * Play again button: This button allows users to play the quiz again.
-    * High scores button: This button allows users to view the high scores table.
+  
 
 ![Quiz Result](/assets/images/quiz-result.PNG)
 
@@ -106,8 +106,8 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
 
 * Additional questions might be available
 * Additional quiz types:
-    * Capital Cities of Countries quiz can be divided into different versions based on the continent
-* The quiz interface can include a timer feature to add an element of urgency to the game. 
+    * "The game features a variety of difficulty levels to cater to a diverse range of users: Easy, Medium, and Hard. Each level is carefully designed to offer a tailored challenge, ensuring that beginners can comfortably start with the basics, while more experienced users can test their skills with more complex questions. This tiered approach allows players to progressively enhance their knowledge and challenge themselves according to their skill level."
+
 
 ---
 
@@ -162,6 +162,8 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 <summary>HTML files, no errors were returned when passing through the official W3C Markup Validator.
 </summary>
 
+![Home Page validation result](/assets/images/html-validation.PNG)
+![Home Page validation result](/assets/images/html-validation.PNG)
 ![Home Page validation result](/assets/images/html-validation.PNG)
 </details>
 
