@@ -79,7 +79,7 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
     * Play again button, which allows users to play the quiz again.
     * Go Home button, which allows users to go back to the home page, where the leaderbroad is located.
 
-![High Scores locked](/assets/images/endpage.png)
+![High Scores](/assets/images/endpage.png)
 
 
 * Quiz Result
