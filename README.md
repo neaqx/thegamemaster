@@ -66,11 +66,6 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
 
 ### Existing Features
 
-* Game Master Logo and Heading
-    * The game's prominent placement at the top of the webpage ensures easy visibility and quick identification for users. As soon as visitors arrive at the site, they are immediately greeted with the eye-catching and clearly visible question 'Are you ready?' This strategic positioning and clear messaging instantly capture the user's attention, setting the stage for an engaging and interactive experience.
-    
-![Logo and Heading](/assets/images/gamemaster%20logo.png)
-
 * Game page / Interface
     * Start game button, which can be accesed without an username.
     * Recent scores display in the top right conor and the number of questions on the left top conor.
