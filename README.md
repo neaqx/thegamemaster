@@ -71,14 +71,14 @@ Game Master elevates the joy of learning with an interactive and enlightening ge
     * Quiz questions are in the middle of the page.
     * The progress bar is located under question counter
 
-![Screenshot](/assets/images/landigpage(start).PNG)
+![Screenshot](ass)
 
 * Final Page
     * After the game, user can enter their username and save their score to the local storage.
     * Play again button, which allows users to play the quiz again.
     * Go Home button, which allows users to go back to the home page, where the leaderbroad is located.
 
-![High Scores](/assets/images/endpage.png)
+![End Page](/assets/images/endpage.png)
 
 
 * Quiz Result
