@@ -173,21 +173,21 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 <summary>app.js, No errors were found when passing through the official Jshint validator.
 </summary>
 
-![app-validation](/assets/images/index-js.PNG)
+![app-validation](/assets/images/app-js.png)
 </details>
 
 <details>
 <summary>end.js, No errors were found when passing through the official Jshint validator.
 </summary>
 
-![game-validation](/assets/images/game-js.PNG)
+![game-validation](/assets/images/game-js.png)
 </details>
 
 <details>
 <summary>score.js, No errors were found when passing through the official Jshint validator.
 </summary>
 
-![score-validation](/assets/images/score-js.PNG)
+![score-validation](/assets/images/score-js.png)
 </details>
 
 
